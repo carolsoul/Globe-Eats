@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Panchang', sans-serif;
+    background-color: #fff3b0;
+    color: #422c22; 
+}
+
+header{
+    display: flex;
+    position: relative;
+    background-color: #4f772d;
+    color: #fdfcdc;
+    text-align: justify;
+    padding-left: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h1{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    margin-left: 700px;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 800;
+    color: #fdfcdc;
+    font-size: 13px;
+    transition: transform 0.3s ease-in-out; 
+}
+
+a:hover{
+    color: #422c22;
+    transform: translateY(-5px); 
+}
+
+/* A parte*/
+.banner-1{
+    margin: 0;
+    padding: 20px;
+    height: 500px;
+    background-image: url(./imagens/banner-1.png);
+    background-repeat: no-repeat;
+}
+
+.banner-1 img{
+    border-radius: 0;
+    width: 700px;
+    height: 538px;
+    margin-left: 588px;
+    margin-top: -428px;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.banner-1 p{
+    width: 300px;
+    font-weight: 700;
+    color: #fdfcdc;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+
+.banner-1 button{
+    display: inline-block;
+    margin-left: 55px;
+    padding: 10px 30px;
+    position: relative;
+    font-family: 'Panchang', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
+    color: #fdfcdc;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 3px solid #fdfcdc;
+    border-radius: 50px;
+    box-shadow: inset 0 0 0 0 #4f772d;
+}
+      
+.banner-1 button:hover {
+    color: #fdfcdc;
+    box-shadow: inset 0 -100px 0 0 #4f772d;
+    border: 3px solid #4f772d;
+}
+      
+.banner-1 button:active {
+    transform: scale(0.9);
+}
+
+main{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+section{
+    margin-bottom: 40px;
+}
+
+section h2{
+    color: #422c22;
+}
+
+.receita-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 30px;
+}
+
+article{
+    margin-bottom: 30px;
+    width: 350px;
+    background-color: #fdfcdc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out; 
+    cursor: pointer;
+}
+
+article:hover{
+    transform: translateY(-10px); 
+}
+
+
+h3{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+}
+
+img{
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+section.volta-ao-mundo img{
+    width: 350px;
+    height: 200px;
+}
+
+footer{
+    display: flex;
+    background-color: #4f772d;
+    height: 40px;
+    font-size: 13px;
+    color: #fdfcdc;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
